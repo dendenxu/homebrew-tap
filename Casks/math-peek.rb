@@ -1,6 +1,6 @@
 cask "math-peek" do
-  version "1.1.0"
-  sha256 "3c58018669b4642d44eb1f6444997ffc26c96d4b4a944421c47a8c782c0cfabe"
+  version "1.1.1"
+  sha256 "7bd3922a64acc1c2afc24b9b4b6551348ffe60a287f2c88e848b8cd3260682ba"
 
   url "https://github.com/dendenxu/math-peek/releases/download/v#{version}/Math.Peek-#{version}-universal.zip"
   name "Math Peek"
@@ -20,5 +20,7 @@ cask "math-peek" do
     and choose Open Anyway for Math Peek.
 
     Enable Accessibility when prompted for native terminal hover previews.
+    If an update leaves the switch on but Math Peek reports missing permission,
+    remove its old Accessibility entry, then add and enable the installed app.
   EOS
 end
