@@ -1,6 +1,6 @@
 cask "math-peek" do
-  version "1.2.0"
-  sha256 "348941fb8036bd42fff143d2b614ce0ff6533e3c1e4d6fd044e9dc936b169332"
+  version "1.3.0"
+  sha256 "8333b211dc4fa5c4969363831d136d09ea5941a761b86eff2821e70f773238e8"
 
   url "https://github.com/dendenxu/math-peek/releases/download/v#{version}/Math.Peek-#{version}-universal.zip"
   name "Math Peek"
@@ -25,5 +25,11 @@ cask "math-peek" do
 
     For cmux, run math-peek connect cmux once inside a local cmux pane.
     No terminal refresh or restart is needed after a successful connection.
+
+    For experimental Ghostty hover, run math-peek connect ghostty in each
+    local pane, outside tmux, screen, and SSH. This does not modify Ghostty.
+    Reconnect after restarting Math Peek or changing font/display scaling.
+    Intended for ordinary output: Ghostty caches text for about 500 ms;
+    full-screen TUIs, cursor redraws, and hidden text remain limitations.
   EOS
 end
