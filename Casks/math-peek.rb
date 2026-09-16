@@ -1,6 +1,6 @@
 cask "math-peek" do
-  version "1.1.1"
-  sha256 "7bd3922a64acc1c2afc24b9b4b6551348ffe60a287f2c88e848b8cd3260682ba"
+  version "1.2.0"
+  sha256 "348941fb8036bd42fff143d2b614ce0ff6533e3c1e4d6fd044e9dc936b169332"
 
   url "https://github.com/dendenxu/math-peek/releases/download/v#{version}/Math.Peek-#{version}-universal.zip"
   name "Math Peek"
@@ -22,5 +22,8 @@ cask "math-peek" do
     Enable Accessibility when prompted for native terminal hover previews.
     If an update leaves the switch on but Math Peek reports missing permission,
     remove its old Accessibility entry, then add and enable the installed app.
+
+    For cmux, run math-peek connect cmux once inside a local cmux pane.
+    No terminal refresh or restart is needed after a successful connection.
   EOS
 end
