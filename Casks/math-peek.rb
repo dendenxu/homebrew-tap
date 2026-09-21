@@ -1,6 +1,6 @@
 cask "math-peek" do
-  version "1.3.3"
-  sha256 "934ea7a0fc161645b0b005a35ab7e12c13e1494cc797a93926879d1171d4c20b"
+  version "1.3.6"
+  sha256 "e47b1a3f74c4973b06e0b1e72555cdddec3566ba7ee86b15acda670eac849661"
 
   url "https://github.com/dendenxu/math-peek/releases/download/v#{version}/Math.Peek-#{version}-universal.zip"
   name "Math Peek"
